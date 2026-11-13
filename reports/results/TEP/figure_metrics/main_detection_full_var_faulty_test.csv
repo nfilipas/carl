@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Median Anomaly Detection Delay
+Full VAR,faulty_test,main_detection,7,5,1.6350022725141364,0.7738194942044258,0.731695875,1.3422818791946309e-05,0.8450615714182904,0.92415,0.8503,0.002,0.9181018193597149,12.0

@@ -1,0 +1,2 @@
+Alarm Ablation,Baseline Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase FPR,False Alarm Runs,Total Healthy Runs
+moving_average_only,8,1,2.9838528679039835,0.9999730911537168,0.0,2.6908846283215608e-05,0.0,0.02666666666666667,2,75

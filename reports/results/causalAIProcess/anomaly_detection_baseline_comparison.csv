@@ -1,0 +1,4 @@
+Baseline,Max Lag,Window Size,Consecutive Alarms,Threshold,PCA Components,Faulty Test Sample F1,Faulty Test Trajectory-Phase F1,Faulty Test Trajectory-Phase TPR,Faulty Test Median Detection Delay,Healthy Test Sample FPR,Healthy Test Trajectory-Phase FPR
+full_var,2,8,5,2.9838528679039835,,0.5929200426814253,0.9104116222760292,0.8355555555555556,31.5,0.0,0.0
+pca,2,8,5,1.882515297970552,2.0,0.3999288857282546,0.888888888888889,0.8,56.0,0.0,0.0
+self_history,2,7,5,3.407215256332446,,0.4831119800444954,0.728813559322034,0.5733333333333334,32.0,0.0,0.0

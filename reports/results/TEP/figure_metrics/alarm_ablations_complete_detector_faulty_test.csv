@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Median Anomaly Detection Delay
+Complete detector,faulty_test,alarm_ablations,6,5,1.7085420289572733,0.5812030526315789,0.502726125,0.00025333333333333333,0.6690643442720788,0.92645,0.8709,0.018,0.9221239875059558,16.0

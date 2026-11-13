@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Window Size,Consecutive Alarms,Threshold,Sample FPR,Trajectory-Phase FPR
+Full covariance,healthy_test,score_ablations,6,5,1.7589724471143733,0.0,0.0

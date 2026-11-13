@@ -1,0 +1,2 @@
+Ablation,Score,Max Lag,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase FPR,False Alarm Runs,Total Healthy Runs
+diagonal_covariance,diagonal,2,6,5,3.4294569338725864,1.0,0.0,0.0,0.0,0.0,0,75

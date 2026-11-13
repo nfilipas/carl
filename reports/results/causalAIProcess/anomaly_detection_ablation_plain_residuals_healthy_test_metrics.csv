@@ -1,0 +1,2 @@
+Ablation,Score,Max Lag,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase FPR,False Alarm Runs,Total Healthy Runs
+plain_residuals,plain,2,6,5,0.7932462547746776,1.0,0.0,0.0,0.0,0.0,0,75

@@ -1,0 +1,2 @@
+Alarm Ablation,Baseline Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Detected Runs,Total Faulty Runs,Median Anomaly Detection Delay
+moving_average_only,8,1,2.9838528679039835,0.5575737190267968,0.45195,2.326934264107039e-05,0.6225397165508586,0.9377777777777778,0.88,0.0044444444444444444,0.9339622641509434,198,225,25.0

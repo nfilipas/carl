@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Alarm Logic,Moving Average Window,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Median Anomaly Detection Delay
+Moving average only,faulty_test,alarm_ablations,Moving average only,6,1.7085420289572733,0.6231141509433962,0.550871125,0.0015974025974025974,0.7102613665785912,0.9288,0.9356,0.078,0.9292808899483513,13.0

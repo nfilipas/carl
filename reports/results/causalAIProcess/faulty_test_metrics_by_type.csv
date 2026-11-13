@@ -1,0 +1,4 @@
+Fault Type,Runs,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Detected Runs,Run Detection Rate,Median Detection Delay (seconds)
+hydraulic_coupling_shift,75,0.7733333333333333,0.5466666666666666,0.0,0.7068965517241379,41,0.5466666666666666,194.0
+reaction_coupling_shift,75,1.0,1.0,0.0,1.0,75,1.0,19.0
+thermal_coupling_shift,75,0.98,0.96,0.0,0.9795918367346939,72,0.96,36.0

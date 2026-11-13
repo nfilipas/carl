@@ -1,0 +1,4 @@
+Fault Type,Runs,Detected_Runs,Run_Detection_Rate,Median_Detection_Delay
+hydraulic_coupling_shift,75,16,0.21333333333333335,224.0
+reaction_coupling_shift,75,75,1.0,21.0
+thermal_coupling_shift,75,64,0.8533333333333334,41.5

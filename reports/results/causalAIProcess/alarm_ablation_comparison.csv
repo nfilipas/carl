@@ -1,0 +1,3 @@
+Alarm Ablation,Applied Window Size,Consecutive Alarms,Threshold,Faulty Test Sample F1,Faulty Test Trajectory-Phase F1,Faulty Test Trajectory-Phase TPR,Faulty Test Median Detection Delay,Healthy Test Sample FPR,Healthy Test Trajectory-Phase FPR
+moving_average_only,8,1,2.9838528679039835,0.6225397165508586,0.9339622641509434,0.88,25.0,2.6908846283215608e-05,0.02666666666666667
+threshold_only,1,1,2.9838528679039835,0.6410542957843867,0.6944444444444444,1.0,8.0,0.0306346025384101,0.9733333333333334

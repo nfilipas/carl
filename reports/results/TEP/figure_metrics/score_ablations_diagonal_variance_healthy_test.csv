@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Window Size,Consecutive Alarms,Threshold,Sample FPR,Trajectory-Phase FPR
+Diagonal variance,healthy_test,score_ablations,6,5,2.3165002091047935,0.0,0.0

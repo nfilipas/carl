@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Median Anomaly Detection Delay
+Raw residual,faulty_test,score_ablations,6,5,0.5043298041769662,0.630246947368421,0.56092575,4e-05,0.7187056204997875,0.92215,0.8483,0.004,0.9159423419532473,19.0

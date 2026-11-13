@@ -1,0 +1,2 @@
+Max Lag,Window Size,Consecutive Alarms,Threshold,Sample FPR,Trajectory-Phase FPR,False Alarm Runs,Healthy Test Runs,False Alarm Samples,Evaluated Healthy Samples
+2,8,5,2.975990394595218,0.0,0.0,0,75,0,74025

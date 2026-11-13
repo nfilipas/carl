@@ -1,0 +1,2 @@
+Baseline,Max Lag,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase FPR,False Alarm Runs,Total Healthy Runs
+full_var,2,8,5,2.9838528679039835,1.0,0.0,0.0,0.0,0.0,0,75

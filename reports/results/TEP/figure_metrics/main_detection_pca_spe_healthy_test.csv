@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Window Size,Consecutive Alarms,Threshold,Sample FPR,Trajectory-Phase FPR
+PCA-SPE,healthy_test,main_detection,8,5,1.0009918941255251,0.02253108535300316,0.878

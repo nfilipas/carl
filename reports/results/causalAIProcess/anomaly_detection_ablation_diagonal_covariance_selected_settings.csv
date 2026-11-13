@@ -1,0 +1,2 @@
+Ablation,Score,Max Lag,Window Size,Consecutive Alarms,Threshold
+diagonal_covariance,diagonal,2,6,5,3.4294569338725864

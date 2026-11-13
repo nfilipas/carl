@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Window Size,Consecutive Alarms,Threshold,Sample FPR,Trajectory-Phase FPR
+Self-history,healthy_test,main_detection,6,5,2.4841847889695274,2.105263157894737e-05,0.014

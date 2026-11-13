@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Median Anomaly Detection Delay
+PCA-SPE,faulty_test,main_detection,8,5,1.0009918941255251,0.566295468914647,0.488248,0.01465771812080537,0.6549365584200437,0.87795,0.9719,0.216,0.8884318296083002,27.0

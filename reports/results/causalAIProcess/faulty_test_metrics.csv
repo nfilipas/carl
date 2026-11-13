@@ -1,0 +1,2 @@
+Max Lag,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Detected Runs,Total Faulty Runs,Median Detection Delay (seconds)
+2,8,5,2.975990394595218,0.531225937183384,0.42165,0.0,0.5931839763654908,0.9177777777777778,0.8355555555555556,0.0,0.9104116222760291,188,225,31.5

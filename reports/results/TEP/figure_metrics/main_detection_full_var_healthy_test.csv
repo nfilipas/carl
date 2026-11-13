@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Window Size,Consecutive Alarms,Threshold,Sample FPR,Trajectory-Phase FPR
+Full VAR,healthy_test,main_detection,7,5,1.6350022725141364,2.1074815595363542e-06,0.002

@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Median Anomaly Detection Delay
+Diagonal variance,faulty_test,score_ablations,6,5,2.3165002091047935,0.6882351578947369,0.62977925,0.0,0.7728399413601567,0.9252,0.8504,0.0,0.9191526156506702,14.0

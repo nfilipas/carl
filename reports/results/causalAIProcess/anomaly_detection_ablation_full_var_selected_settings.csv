@@ -1,0 +1,2 @@
+Ablation,Score,Max Lag,Window Size,Consecutive Alarms,Threshold
+full_var,mahalanobis,2,6,5,3.4298997526165604

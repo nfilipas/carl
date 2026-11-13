@@ -1,0 +1,2 @@
+Ablation,Score,Max Lag,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase FPR,False Alarm Runs,Total Healthy Runs
+full_var,mahalanobis,2,6,5,3.4298997526165604,1.0,0.0,0.0,0.0,0.0,0,75

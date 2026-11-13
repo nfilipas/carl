@@ -1,0 +1,2 @@
+Method,Partition,Experiment,Alarm Logic,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Median Anomaly Detection Delay
+Threshold-only,faulty_test,alarm_ablations,Threshold only,1.7085420289572733,0.6154016684045881,0.54702525,0.040566037735849055,0.7035297525814862,0.502,1.0,0.996,0.6675567423230975,4.0

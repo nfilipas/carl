@@ -1,0 +1,2 @@
+Ablation,Score,Max Lag,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Detected Runs,Total Faulty Runs,Median Anomaly Detection Delay
+plain_residuals,plain,2,6,5,0.7932462547746776,0.4644332097517133,0.33790555555555557,0.0,0.5051261715035524,0.84,0.68,0.0,0.8095238095238095,153,225,33.0

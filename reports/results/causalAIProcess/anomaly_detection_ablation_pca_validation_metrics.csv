@@ -1,0 +1,2 @@
+Ablation,Score,Max Lag,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Detected Runs,Total Faulty Runs,Median Anomaly Detection Delay
+pca,spe,2,6,5,2.3603916889632024,0.3538109653548604,0.19953333333333334,0.0,0.33268493302951146,0.8444444444444444,0.6888888888888889,0.0,0.8157894736842105,155,225,49.0

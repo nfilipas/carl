@@ -1,0 +1,18 @@
+name: carl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - pyarrow
+  - matplotlib
+  - scikit-learn
+  - pyreadr
+  - jupyter
+  - ipykernel
+  - ruff
+  - pytest
+  - pip:
+    - -e .

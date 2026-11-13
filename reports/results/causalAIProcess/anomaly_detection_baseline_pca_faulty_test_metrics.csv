@@ -1,0 +1,2 @@
+Baseline,Max Lag,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Detected Runs,Total Faulty Runs,Median Anomaly Detection Delay
+pca,2,8,5,1.882515297970552,0.39328165374677004,0.24994444444444444,0.0,0.3999288857282546,0.9,0.8,0.0,0.888888888888889,180,225,56.0

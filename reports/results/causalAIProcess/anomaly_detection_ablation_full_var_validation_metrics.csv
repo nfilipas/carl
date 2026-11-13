@@ -1,0 +1,2 @@
+Ablation,Score,Max Lag,Window Size,Consecutive Alarms,Threshold,Sample Accuracy,Sample TPR,Sample FPR,Sample F1,Trajectory-Phase Accuracy,Trajectory-Phase TPR,Trajectory-Phase FPR,Trajectory-Phase F1,Detected Runs,Total Faulty Runs,Median Anomaly Detection Delay
+full_var,mahalanobis,2,6,5,3.4298997526165604,0.4927626109425907,0.3729277777777778,0.0,0.5432591339675552,0.8955555555555555,0.7911111111111111,0.0,0.8833746898263027,178,225,32.5
