@@ -9,10 +9,13 @@ controller. The code accompanies the paper submitted to IDA 2027.
 
 ## Quick start for reviewers
 
-- Precomputed figures (`reports/figures/`) and metric tables
-  (`reports/results/**/*.csv`) are included, so the reported numbers can be
-  inspected without rerunning anything.
-- Each notebook is committed with its outputs.
+- Result tables under `reports/results/` are included so the reported metrics
+  can be inspected without rerunning the experiments.
+- Figures under `reports/figures/` are generated outputs. Treat committed
+  copies as convenience snapshots: regenerate them from the result tables
+  before comparing plots with metrics.
+- Notebooks are committed; saved outputs may be cleared or may reflect an
+  earlier run. Rerun the relevant cells to refresh them.
 - To reproduce them, create the environment below. The synthetic benchmark
   needs no external data. TEP is downloaded automatically by
   `notebooks/TEP/0.0-data_download.ipynb` (about 1.31 GiB, Harvard Dataverse).
@@ -47,14 +50,28 @@ models, and results beneath `data/`, `models/`, and `reports/`. Raw/processed
 data and trained models are not included in the repository, and neither are the
 large per-sample score files (`*.parquet`) under `reports/results/`.
 
-The synthetic paper figures and aggregate TEP detection/recovery summary can
-be regenerated with
+The synthetic figures and aggregate TEP detection/recovery summary can be
+regenerated with
 [`notebooks/figures/results_figures.ipynb`](notebooks/figures/results_figures.ipynb).
+The TEP recovery pipeline
+[`notebooks/TEP/2.2-detection_recovery_pipeline.ipynb`](notebooks/TEP/2.2-detection_recovery_pipeline.ipynb)
+uses `ts_idx_list = list(range(n_ts))` and `with_plot = False` for the
+full evaluation, and writes `detection_recovery_results_all.csv`. It selects
+the first post-onset alarm while retaining preceding scores for smoothing and
+persistence; this is an offline evaluation using known fault onset. The
+aggregate figure notebook reads that all-runs CSV and rejects incomplete run
+sets.
+
 To generate TEP comparison figures, rerun the TEP primary, baseline,
 score-ablation, and alarm-ablation evaluation notebooks so their export cells
 write metrics under `reports/results/TEP/figure_metrics/`, then run
 [`notebooks/figures/tep_comparison_figures.ipynb`](notebooks/figures/tep_comparison_figures.ipynb).
-The synthetic figure notebook also writes `detection_recovery_aggregate_summary.csv`; run the synthetic recovery pipeline first to refresh its inputs. Both figure notebooks write PNG and PDF files to `reports/figures/`; synthetic and TEP score/alarm ablations are each combined into a single compact figure; TEP detection and model complexity are also combined.
+The synthetic figure notebook also writes
+`detection_recovery_aggregate_summary.csv`; run the synthetic recovery pipeline
+first to refresh its inputs. Both figure notebooks write PNG and PDF files to
+`reports/figures/`. Each combines the corresponding score and alarm ablations
+into one figure; the TEP comparison notebook also combines detection and model
+complexity.
 
 ## Tennessee Eastman Process dataset
 
