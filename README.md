@@ -14,6 +14,8 @@ controller. The code accompanies the paper submitted to IDA 2027.
 - Figures under `reports/figures/` are generated outputs. Treat committed
   copies as convenience snapshots: regenerate them from the result tables
   before comparing plots with metrics.
+- The pipeline overview is available at
+  [`reports/figures/pipeline_visual/carl_pipeline.pdf`](reports/figures/pipeline_visual/carl_pipeline.pdf).
 - Notebooks are committed; saved outputs may be cleared or may reflect an
   earlier run. Rerun the relevant cells to refresh them.
 - To reproduce them, create the environment below. The synthetic benchmark
@@ -55,12 +57,15 @@ regenerated with
 [`notebooks/figures/results_figures.ipynb`](notebooks/figures/results_figures.ipynb).
 The TEP recovery pipeline
 [`notebooks/TEP/2.2-detection_recovery_pipeline.ipynb`](notebooks/TEP/2.2-detection_recovery_pipeline.ipynb)
-uses `ts_idx_list = list(range(n_ts))` and `with_plot = False` for the
-full evaluation, and writes `detection_recovery_results_all.csv`. It selects
-the first post-onset alarm while retaining preceding scores for smoothing and
-persistence; this is an offline evaluation using known fault onset. The
-aggregate figure notebook reads that all-runs CSV and rejects incomplete run
-sets.
+is configured with `ts_idx_list = list(range(n_ts))` and `with_plot = False`;
+running it evaluates all 10,000 trajectories and can take a long time. It
+writes to `reports/results/TEP/detection_recovery_results.csv`, leaving the
+saved full-run table `detection_recovery_results_all.csv` untouched. The
+aggregate figure notebook uses that full-run CSV and rejects incomplete run
+sets, so rerunning the recovery pipeline is not required to regenerate the
+aggregate figure. The pipeline selects the first post-onset alarm while
+retaining preceding scores for smoothing and persistence; this is an offline
+evaluation using known fault onset.
 
 To generate TEP comparison figures, rerun the TEP primary, baseline,
 score-ablation, and alarm-ablation evaluation notebooks so their export cells

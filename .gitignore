@@ -12,9 +12,10 @@
 /reports/results/**/*.parquet
 *.bkp
 
-# Internal working documents
+# Keep the exported pipeline overview; ignore other working files in this directory.
 /references/*.docx
-/reports/figures/pipeline_visual/
+/reports/figures/pipeline_visual/*
+!/reports/figures/pipeline_visual/carl_pipeline.pdf
 
 # Mac OS-specific storage files
 .DS_Store
