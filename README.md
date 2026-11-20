@@ -55,6 +55,9 @@ large per-sample score files (`*.parquet`) under `reports/results/`.
 The synthetic figures and aggregate TEP detection/recovery summary can be
 regenerated with
 [`notebooks/figures/results_figures.ipynb`](notebooks/figures/results_figures.ipynb).
+It also exports `synthetic_detection_ablation_summary.pdf` and `.png`, combining
+the synthetic detection, model-complexity, and ablation panels in one figure;
+the separate figures remain available.
 The TEP recovery pipeline
 [`notebooks/TEP/2.2-detection_recovery_pipeline.ipynb`](notebooks/TEP/2.2-detection_recovery_pipeline.ipynb)
 is configured with `ts_idx_list = list(range(n_ts))` and `with_plot = False`;
@@ -66,6 +69,13 @@ sets, so rerunning the recovery pipeline is not required to regenerate the
 aggregate figure. The pipeline selects the first post-onset alarm while
 retaining preceding scores for smoothing and persistence; this is an offline
 evaluation using known fault onset.
+
+To export one illustrative TEP trajectory without rerunning the full
+evaluation, set `save_recovery_example = True` in the recovery notebook and
+run from that configuration cell onward. It selects a detected, recovered run
+nearest the median detection delay and recovery time in the all-runs table,
+evaluates only that trajectory, and saves
+`tep_detection_recovery_example.pdf` and `.png` under `reports/figures/`.
 
 To generate TEP comparison figures, rerun the TEP primary, baseline,
 score-ablation, and alarm-ablation evaluation notebooks so their export cells

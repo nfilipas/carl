@@ -10,7 +10,11 @@
 !/reports/figures/
 !/reports/results/
 /reports/results/**/*.parquet
+/reports/results/TEP/detection_recovery_results.csv
 *.bkp
+
+# Local VS Code settings
+/.vscode/settings.json
 
 # Keep the exported pipeline overview; ignore other working files in this directory.
 /references/*.docx
